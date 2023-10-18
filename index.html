@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="
+  .css"
+    />
+    <script src="app.js" defer></script>
+    <title>Classic Games</title>
+  </head>
+  <header>
+    <div class="leftside"><img src="./download.jpg" alt="" /></div>
+    <nav class="rightside">
+      <a class="navButtons" href="./index.html">Home</a>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <div class="startScreen" id="startScreen">
+        <h1>ARE YOU READY</h1>
+        <button class="startButton" id="gameStart">PLAY</button>
+      </div>
+      <div class="gameScreen" id="gameScreen">
+        <div class="leftSide">
+          <h2 id="playerScore" class="bothScore">Player: 0</h2>
+          <img id="playerChoice" src="" alt="" />
+        </div>
+
+        <div class="ChoiceButtons">
+          <button class="ChoiceButton" id="rock">ROCK</button>
+          <button class="ChoiceButton" id="paper">PAPER</button>
+          <button class="ChoiceButton" id="scissor">SCISSORS</button>
+        </div>
+
+        <div class="middle">
+          <button class="ChoiceButton" id="goButton"></button>GO!
+        </div>
+        <div class="rightSide">
+          <h2 id="playerScore" class="compScore">Computer: 0</h2>
+          <img id="compChoice" src="" alt="" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
